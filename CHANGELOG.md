@@ -5,6 +5,10 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ## [Unreleased]
 
+## [0.0.5] - 2016-07-26
+### Added
+- option flag -S for multiple php-fpm pools
+
 ## [0.0.5] - 2016-01-06
 ### Fixed
 - remove duplicate option description in check-php-fpm
