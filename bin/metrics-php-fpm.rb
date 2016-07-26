@@ -75,7 +75,6 @@ class PhpfpmMetrics < Sensu::Plugin::Metric::CLI::Graphite
               max_children_reached
               slow_requests)
     stat.each do |name|
-    stat.each do |name|
       if config[:scheme_append]
         output "#{config[:scheme]}.#{config[:scheme_append]}.#{name}", stats['status'][name]
       else
